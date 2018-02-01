@@ -36,7 +36,7 @@ public class CoreServer extends NanoHTTPD {
 			Gson gson = new Gson();
 			String json = gson.toJson(list);
 			System.out.println(json);
-			response = response.replace("400", "200").replace("\"error\"", json) ;
+			response = response.replace("400", "200").replace("\"error\"", json);
 			break;
 		case CMD_ADD:
 			bookmarkDao.saveOrUpdate(bookmark);
