@@ -3,4 +3,4 @@
 .settings
 build/
 .idea
-out
+out/artifacts/bookmarks/bundles

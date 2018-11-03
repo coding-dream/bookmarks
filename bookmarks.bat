@@ -3,13 +3,13 @@ color 0a
 
 echo ========================== start server ==========================
 D:
-cd D:\Codes\JavaSE\bookmarks\out\artifacts\bookmarks\bundles\bookmarks\app
+cd D:\Codes\JavaSE\bookmarks\out\artifacts\bookmarks
 java -jar bookmarks.jar
 pause
 
 cd D:\Codes\JavaSE\bookmarks
 
-echo == 根据当前时间生成随机文件以修复GIT无法识别db的更新问题 == 
+echo == upload to git == 
 set dt=%date%%time%
 echo %dt% > random.txt
 
