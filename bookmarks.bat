@@ -3,11 +3,11 @@ color 0a
 
 echo ========================== start server ==========================
 D:
-cd D:\Codes\JavaFX\bookmarks\build\dist
+cd D:\Codes\JavaSE\bookmarks\out\artifacts\bookmarks\bundles\bookmarks\app
 java -jar bookmarks.jar
 pause
 
-cd D:\Codes\JavaFX\bookmarks
+cd D:\Codes\JavaSE\bookmarks
 
 echo == 根据当前时间生成随机文件以修复GIT无法识别db的更新问题 == 
 set dt=%date%%time%

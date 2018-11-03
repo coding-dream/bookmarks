@@ -1,14 +1,13 @@
 package com.less.bookmarks;
 
-import java.io.IOException;
-
 import com.less.bookmarks.util.LayoutInflater;
-
 import fi.iki.elonen.NanoHTTPD;
 import javafx.application.Application;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class App extends Application {
 	@Override
@@ -24,8 +23,9 @@ public class App extends Application {
 	}
 
 	public static void main(String[] args) throws IOException {
-		startServer();
 		// launch(args);
+		// 注意,startServer必须在launch之后启动.
+		startServer();
 	}
 
 	private static void startServer() throws IOException {
